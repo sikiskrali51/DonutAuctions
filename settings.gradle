@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal() // Standard
+        mavenCentral()
+        maven {
+            url = uri("https://maven.fabricmc.net/")
+        }
+    }
+}
+
+rootProject.name = "DonutAuctions"
+
+
+include("common")
+include("V_1_20")
+include("V_1_21")
+include("V_1_21_4")
+include("V_1_21_8")
